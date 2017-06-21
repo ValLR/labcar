@@ -1,4 +1,4 @@
-*{
+body{
 	padding:0;
 	margin:0;
 }
@@ -29,7 +29,7 @@
 #disfruta{
 	background-color: #f7b617;
 	color:white;
-	padding:10px 50px;
+	padding:30px 0px 20px 70px;
 }
 .linea{
  	border:1px solid white;
@@ -49,5 +49,14 @@
  	border-radius: 5px;
  	margin:12px 0 15px 0;
  	padding: 8px 0;
+ }
 
+ /*informacion*/
+.informacion{
+	background-color: #f7b617;
+	color:white;
+	padding:40px 0;
+ }
+ #descarga{
+ 	border:1px solid white;
  }
