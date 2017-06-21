@@ -55,8 +55,12 @@ body{
 .informacion{
 	background-color: #f7b617;
 	color:white;
-	padding:40px 0;
+	padding:30px 0;
  }
  #descarga{
  	border:1px solid white;
+ 	padding: 60px 20px;
+ }
+ .img{
+ 	padding-left:50px;
  }
