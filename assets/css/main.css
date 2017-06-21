@@ -21,7 +21,10 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding:100px 0px ;
+	padding:130px 0px ;
+}
+.hero-box{
+	padding: 20px 0;
 }
 #disfruta{
 	background-color: #f7b617;
@@ -35,6 +38,16 @@
  	display: inline-block;
  	background-color: white;
  }
- hr{
+ .conductor{
+ 	padding-left: 10px;
+ }
+ #conductor{
+ 	color:black;
+ 	font-size:bolder;
+ 	background-color: white;
+ 	border: 1px solid white;
+ 	border-radius: 5px;
+ 	margin:12px 0 15px 0;
+ 	padding: 8px 0;
 
  }
