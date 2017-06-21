@@ -1,6 +1,9 @@
 body{
 	padding:0;
 	margin:0;
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+
 }
 .navbar{
 	background-color: white;
@@ -59,8 +62,37 @@ body{
  }
  #descarga{
  	border:1px solid white;
- 	padding: 60px 20px;
+ 	padding: 40px 20px;
+ }
+ .info{
+ 	padding:10px;
  }
  .img{
  	padding-left:50px;
+ }
+ /*conduce*/
+ .conduce{
+	background-image: url("../../assets/labcar/img/conduce.jpg");
+	background-position: top;
+	background-repeat: 80% 5%;
+	background-size: cover;
+	color:white;
+	height: 600px;
+	padding:0;
+ }
+ .row.drive-box{
+ 	margin:0;
+ }
+ #drive{
+ 	background-color: rgba(0, 0, 0, .5);
+ 	padding:60px 0 20px 60px;
+ }
+ #conductor{
+ 	background-color:#f7b617;
+ 	border: 1px solid #f7b617;
+  	border-radius: 10px;
+ }
+ .tarifas{
+  	background-color:#f7b617;
+  	color:white;
  }
