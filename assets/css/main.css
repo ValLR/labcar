@@ -1,0 +1,40 @@
+*{
+	padding:0;
+	margin:0;
+}
+.navbar{
+	background-color: white;
+	padding:10px 0;
+	border-radius: 0;
+	border:0;
+}
+.navbar-inverse{
+	margin-bottom:0;
+}
+.navbar ul li{
+	padding:0 10px;
+}
+
+/*hero*/
+.hero{
+	background-image: url("../../assets/labcar/img/taxi.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:100px 0px ;
+}
+#disfruta{
+	background-color: #f7b617;
+	color:white;
+	padding:10px 50px;
+}
+.linea{
+ 	border:1px solid white;
+ 	width: 90px;
+ 	margin-bottom: 20px;
+ 	display: inline-block;
+ 	background-color: white;
+ }
+ hr{
+
+ }
