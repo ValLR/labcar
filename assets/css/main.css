@@ -56,9 +56,10 @@ ul li{
 	padding:30px 0px 20px 70px;
 
 }
+
 .linea.start{
  	border:1px solid white;
- 	width: 90px;
+ 	width: 200px;
  	margin-bottom: 20px;
  	display: inline-block;
  	background-color: white;

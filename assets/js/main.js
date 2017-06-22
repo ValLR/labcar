@@ -26,7 +26,7 @@ function initMap(){
 			position: {lat:latitud, lng:longitud},
 			animation: google.maps.Animation.DROP,
 			map: map,
-			icon:"../img/bici.png"
+			icon:"../../favicon.ico"
 		});
 
 		map.setZoom(17);
