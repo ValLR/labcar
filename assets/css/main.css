@@ -50,20 +50,48 @@ ul li{
 .hero-box{
 	padding: 20px 0;
 }
+#bien{
+	margin-bottom: 10px;
+}
 #disfruta{
 	background-color: #f7b617;
 	color:white;
 	padding:30px 0px 20px 70px;
 
 }
+/*estilos <hr> y texto*/
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
 
-.linea.start{
- 	border:1px solid white;
- 	width: 200px;
- 	margin-bottom: 20px;
- 	display: inline-block;
- 	background-color: white;
- }
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width:200px;
+    height: 3px;
+    background: white;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+/*fin estilos hr+texto*/
  .conductor{
  	padding-left: 10px;
  }
@@ -73,7 +101,7 @@ ul li{
  	background-color: white;
  	border: 1px solid white;
  	border-radius: 5px;
- 	margin:12px 0 15px 0;
+ 	margin:12px 0 15px 5px;
  	padding: 10px;
  	font-size:20px;
  }

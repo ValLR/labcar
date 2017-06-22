@@ -53,6 +53,7 @@ function initMap(){
         };
         document.getElementById('origen').addEventListener('change', onChangeHandler);
         document.getElementById('destino').addEventListener('change', onChangeHandler);
+        
       }
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
@@ -68,3 +69,4 @@ function initMap(){
           }
         });
       }
+
