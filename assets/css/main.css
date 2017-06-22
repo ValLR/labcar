@@ -66,13 +66,23 @@ body{
  }
  #descarga{
  	border:1px solid white;
- 	padding: 40px 20px;
+ 	padding: 40px 10px;
  }
  .info{
  	padding:10px;
  }
  .img{
  	padding-left:50px;
+ }
+ .img-mobile{
+    max-width: 100%;
+    height: auto;
+ }
+ .informacion.visible-xs{
+ 	padding:40px 20px;
+ }
+ .info-box.mobile{
+ 	text-align: center;
  }
  /*conduce*/
  .conduce{
