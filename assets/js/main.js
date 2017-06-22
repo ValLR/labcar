@@ -48,13 +48,35 @@ function initMap(){
         var directionsDisplay = new google.maps.DirectionsRenderer;
         directionsDisplay.setMap(map);
 
-        var onChangeHandler = function() {
-          calculateAndDisplayRoute(directionsService, directionsDisplay);
+    var onChangeHandler = function() {
+         calculateAndDisplayRoute(directionsService, directionsDisplay);
+    };
+    document.getElementById('origen').addEventListener('change', onChangeHandler);
+    document.getElementById('destino').addEventListener('change', onChangeHandler);
+     function calcularCostoRuta() {
+        var start = document.getElementById("origen").value;
+        var end = document.getElementById("destino").value;
+        var distanceInput = document.getElementById("output");
+            
+        var request = {
+            origin:start, 
+            destination:end,
+            travelMode: google.maps.DirectionsTravelMode.DRIVING
         };
-        document.getElementById('origen').addEventListener('change', onChangeHandler);
-        document.getElementById('destino').addEventListener('change', onChangeHandler);
         
-      }
+        directionsService.route(request, function(response, status) {
+            if (status == google.maps.DirectionsStatus.OK) {
+                directionsDisplay.setDirections(response);                    
+                var costoRuta = (response.routes[0].legs[0].distance.value / 1000) * 500;
+                var contenedor = document.createElement("div");
+                contenedor.setAttribute("class","costos");
+                var contenedorValor = document.createTextNode("$  " + costoRuta);
+                contenedor.appendChild(contenedorValor);
+                distanceInput.appendChild(contenedor);
+            }
+        	});
+    	}
+    }
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         directionsService.route({
