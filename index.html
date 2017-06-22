@@ -15,7 +15,7 @@
   		<div class="container-fluid">
     	<!-- Brand and toggle get grouped for better mobile display -->
 	    	<div class="navbar-header">
-	    	 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	    	 	<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	   		    	<span class="sr-only">Toggle navigation</span>
 	        		<span class="icon-bar"></span>
 	        		<span class="icon-bar"></span>
@@ -88,7 +88,7 @@
  		 		</div>
 		</div>
 	</section>
-	<section class="tarifas">
+	<section class="tarifas container-fluid">
 		<div class="row money">
 			<div class="col-md-6">
 				<div class="col-md-2"></div>
@@ -113,17 +113,46 @@
 				</div>
 				<div class="col-md-2"></div>		
 			</div>
-		</div>
-			<div class="col-md-6" id="mapa">
+			<div class="col-md-6 map-box">
+				<div class="col-md-12" id="map">
 				<!-- Aquí irá mapa -->
+				</div>
 			</div>
 		</div>
 	</section>
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row footer">
+				<div class="col-md-4">
+					<img src="assets/labcar/img/logo-blanco.png" alt="" class="logo-footer">
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr class="linea end">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						iconos
+					</div>
+					<div class="col-md-3">columna</div>
+					<div class="col-md-3">columna</div>
+					<div class="col-md-3">columna</div>
+				</div>
+			
+			
 
+				</div>
+		</div>
+		
+		
+	</footer>
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!-- jquery -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- bootstrap -->
+	<script type="text/javascript" src="assets/js/main.js"></script><!-- archivo js -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaB6faDC0vHhLt9IHTrCAqHe3II_IRuw0&libraries=places&callback=initMap"
+        async defer></script>
 </body>
 </body>
 </html>
