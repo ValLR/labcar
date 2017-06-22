@@ -5,6 +5,23 @@ body{
 	font-family: 'Raleway', sans-serif;
 
 }
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color:grey;
+	text-decoration: none;
+}
+ul{
+	list-style: none
+}
+ul li{
+	text-decoration: none;
+}
+
+/*navegación*/
+
 .navbar{
 	background-color: white;
 	padding:10px 10px 0px 10px;
@@ -37,6 +54,7 @@ body{
 	background-color: #f7b617;
 	color:white;
 	padding:30px 0px 20px 70px;
+
 }
 .linea.start{
  	border:1px solid white;
@@ -50,13 +68,18 @@ body{
  }
  .conductor-button{
  	color:black;
- 	font-size:bolder;
+ 	font-weight:bolder;
  	background-color: white;
  	border: 1px solid white;
  	border-radius: 5px;
  	margin:12px 0 15px 0;
- 	padding: 8px 0;
+ 	padding: 10px;
+ 	font-size:20px;
  }
+
+.conductor-button.mobile{
+	font-size:15px;
+}
 
  /*informacion*/
 .informacion{
@@ -188,13 +211,22 @@ footer{
 	color:white;
 	background-color: #2b2b2b;
 	padding:30px 0;
+	font-size:20px;
 }
 .row.footer{
 	padding:30px 150px;
 }
-.text-col{
-	text-align: center;
-}
+
 .sub-footer{
 	text-align: center;
+}
+.row.center{
+	padding: 5px 10px;
+}
+footer ul li{
+	margin-bottom:10px;
+}
+footer ul li a{
+	text-decoration:none;
+	color:white;
 }
