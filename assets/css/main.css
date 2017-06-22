@@ -116,3 +116,12 @@ footer{
 	background-color: #2b2b2b;
 	padding:30px 0;
 }
+.row.footer{
+	padding:30px 150px;
+}
+.text-col{
+	text-align: center;
+}
+.sub-footer{
+	text-align: center;
+}
