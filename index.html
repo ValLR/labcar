@@ -111,43 +111,62 @@
 		</div>
 	</section>
 
-	<section class="conduce container-fluid">
+	<section class="conduce container-fluid hidden-xs">
 		<div class="row drive-box">
 			<div class="col-md-5"></div>
-		 	<div class="col-md-2"></div>
+			<div class="col-md-2"></div>
  		 	<div class="col-md-5 offset-md-8" id="drive">
  		 		<div class="row">
- 		 			<h2 class="col-md-12">Conduce cuando quieras</h2>
+ 		 			<h1 class="col-md-12">Conduce cuando quieras</h1>
  		 		</div>
  		 		<div class="row">
- 		 			<h4 class="col-md-12">LabCar es una opcion flexible para alcanzar<br>tus metas financieras</h4>
+ 		 			<h3 class="col-md-12">LabCar es una opcion flexible para alcanzar<br>tus metas financieras</h3>
  		 		</div>
  		 		<div class="row conductor">
- 		 		 	<button id="conductor" class="col-md-8">Conviértete en un conductor</button>
+ 		 		 	<button id="conductor" class="col-md-6">Conviértete en conductor</button>
  		 		</div>
+			</div>
 		</div>
 	</section>
-	<section class="tarifas container-fluid">
+
+	<section class="conduce container-fluid visible-xs hidden-md">
+		<div class="row drive-box">
+ 		 	<div class="col-xs-12" id="drive-mobile">
+ 		 		<div class="row">
+ 		 			<h1 class="col-xs-12">Conduce cuando quieras</h1>
+ 		 		</div>
+ 		 		<div class="row">
+ 		 			<h3 class="col-xs-12">LabCar es una opcion flexible para alcanzar<br>tus metas financieras</h3>
+ 		 		</div>
+ 		 		<div class="row conductor">
+ 		 		 	<button id="conductor" class="col-xs-8">Conviértete en conductor</button>
+ 		 		</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="tarifas container-fluid hidden-xs">
 		<div class="row money">
 			<div class="col-md-6">
 				<div class="col-md-2"></div>
-				<div class="col-md-8">
+				<div class="col-md-8 col-tarifa">
 					<div class="row">
-						<h2>Tarifas</h2>
+						<h1>Tarifas</h1>
 					</div>
-					<div class="row">
-						<h4>Consulta las tarifas LabCar aquí</h4>					
+					<div class="row consulta">
+						<h3>Consulta las tarifas LabCar aquí</h3>					
 					</div>
 					<div class="row">
 						<label><span class="glyphicon glyphicon-record" aria-hidden="true"></span></label>
-						<input type="text" name="origin" id="origen" class="input" placeholder="¿Dónde inicia tu ruta?">
+						<input type="text" name="origin" id="origen" class="input" placeholder="Ingrese su punto de partida">
 					</div>
 					<div class="row">
 						<label><span class="glyphicon glyphicon-send" aria-hidden="true"></span></label>
-						<input type="" name="destination" id="destino" class="input" placeholder="¿Cuál es tu destino?">
+						<input type="" name="destination" id="destino" class="input" placeholder="Ingrese su destino">
 					</div>
 					<div class="row">
-						<button id="ruta">¡TRAZAR RUTA!</button>
+						<div class="col-md-3"></div>
+						<button id="ruta" class="ruta">¡TRAZAR RUTA!</button>
 					</div>
 				</div>
 				<div class="col-md-2"></div>		
@@ -158,6 +177,30 @@
 				</div>
 			</div>
 		</div>
+	</section>
+	<section class="tarifas container-fluid visible-xs hidden-md">
+		<div class="row money">
+			<div class="col-xs-12">
+					<div class="row">
+						<h1>Tarifas</h1>
+					</div>
+					<div class="row consulta">
+						<h3>Consulta las tarifas LabCar aquí</h3>					
+					</div>
+					<div class="row">
+						<label><span class="glyphicon glyphicon-record" aria-hidden="true"></span></label>
+						<input type="text" name="origin" id="origen" class="input mobile-input" placeholder="Ingrese su punto de partida">
+					</div>
+					<div class="row">
+						<label><span class="glyphicon glyphicon-send" aria-hidden="true"></span></label>
+						<input type="" name="destination" id="destino" class="input mobile-input" placeholder="Ingrese su destino">
+					</div>
+					<div class="row">
+						<div class="col-xs-3"></div>
+						<button id="ruta" class="ruta">¡TRAZAR RUTA!</button>
+					</div>
+				</div>
+			</div>
 	</section>
 	<footer class="container-fluid">
 		<div class="row footer">
